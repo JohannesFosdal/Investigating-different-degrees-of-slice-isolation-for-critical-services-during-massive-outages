@@ -84,8 +84,8 @@ slices, application_types = create_case_1()
 ### TOPOLOGY USED ###
 
 # Path to the network layout file
-#gml_file_path = 'surviveNet/topology_zoo/Uninett2011.gml'
-gml_file_path = 'surviveNet/topology_zoo/Geant2012.gml'
+#gml_file_path = 'topology_zoo/Uninett2011.gml'
+gml_file_path = 'topology_zoo/Geant2012.gml'
 
 
 def main():

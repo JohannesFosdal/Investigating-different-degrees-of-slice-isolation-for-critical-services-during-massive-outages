@@ -107,16 +107,16 @@ def show_topology_fail(file_path, failure_center, failure_radius):
     
 
 
-show_topology('surviveNet/topology_zoo/Geant2012.gml')
+show_topology('topology_zoo/Geant2012.gml')
 failure_center = {'Latitude': 52, 'Longitude': 5}
 failure_radius = 500
-show_topology_fail('surviveNet/topology_zoo/Geant2012.gml', failure_center, failure_radius)
+show_topology_fail('topology_zoo/Geant2012.gml', failure_center, failure_radius)
 
 
-show_topology('surviveNet/topology_zoo/Uninett2011.gml')
+show_topology('topology_zoo/Uninett2011.gml')
 failure_center = {'Latitude': 59.9, 'Longitude': 10.7}
 failure_radius = 80
-show_topology_fail('surviveNet/topology_zoo/Uninett2011.gml', failure_center, failure_radius)
+show_topology_fail('topology_zoo/Uninett2011.gml', failure_center, failure_radius)
 
 
 

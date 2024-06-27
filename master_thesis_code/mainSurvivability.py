@@ -87,8 +87,8 @@ oslo = {'Latitude': 59.9, 'Longitude': 10.7}
 geant2012_fail = {'Latitude': 52, 'Longitude': 5}
 
 # Path to the network layout file
-#gml_file_path = 'surviveNet/topology_zoo/Geant2012.gml'
-gml_file_path = 'surviveNet/topology_zoo/Uninett2011.gml'
+#gml_file_path = 'topology_zoo/Geant2012.gml'
+gml_file_path = 'topology_zoo/Uninett2011.gml'
 
 # Failure area to use in simulation
 #failure_area = copy.deepcopy(geant2012_fail)
